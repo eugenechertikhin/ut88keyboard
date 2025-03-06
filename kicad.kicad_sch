@@ -4749,12 +4749,6 @@
 		(uuid "1c57e9c1-895b-4f69-81cc-8c459cd24215")
 	)
 	(junction
-		(at 241.3 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e305408-c5b8-48f5-89ea-d50ef19bab6b")
-	)
-	(junction
 		(at 163.83 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5119,6 +5113,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6badd1d5-5a95-43d5-888f-5efffc8524f3")
+	)
+	(junction
+		(at 240.03 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c075cc3-9b27-43e5-8396-b909ae6d5e92")
 	)
 	(junction
 		(at 205.74 60.96)
@@ -6072,6 +6072,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 146.05) (xy 240.03 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07f2e7d8-9964-48b2-9d5a-9a20b15868a2")
+	)
+	(wire
+		(pts
 			(xy 177.8 40.64) (xy 177.8 45.72)
 		)
 		(stroke
@@ -6542,16 +6552,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 146.05) (xy 241.3 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "235a6fa1-b284-4885-a5f0-395b1460f28f")
-	)
-	(wire
-		(pts
 			(xy 261.62 71.12) (xy 261.62 73.66)
 		)
 		(stroke
@@ -6809,6 +6809,16 @@
 			(type default)
 		)
 		(uuid "32160abb-3139-47ee-b6ba-bc094d6e1946")
+	)
+	(wire
+		(pts
+			(xy 240.03 147.32) (xy 241.3 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "323b8cf1-3c2c-4919-a966-0877c622498b")
 	)
 	(wire
 		(pts
@@ -8099,6 +8109,16 @@
 			(type default)
 		)
 		(uuid "7f425fa9-031f-4632-9efc-a3bb13722aad")
+	)
+	(wire
+		(pts
+			(xy 231.14 127) (xy 229.87 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f4600f9-7e56-4750-8e47-eb41ca7aa844")
 	)
 	(wire
 		(pts
@@ -9572,16 +9592,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 146.05) (xy 241.3 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5028163-2145-47a4-bd9e-19bb8ae0a07d")
-	)
-	(wire
-		(pts
 			(xy 166.37 96.52) (xy 166.37 91.44)
 		)
 		(stroke
@@ -9689,6 +9699,16 @@
 			(type default)
 		)
 		(uuid "dbf9c1ae-08ef-48d0-841f-2a624dfa70ca")
+	)
+	(wire
+		(pts
+			(xy 238.76 127) (xy 240.03 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd0dc599-8fcc-48af-9936-bea6bd17662c")
 	)
 	(wire
 		(pts
@@ -10042,7 +10062,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 130.81) (xy 240.03 129.54)
+			(xy 240.03 127) (xy 240.03 130.81)
 		)
 		(stroke
 			(width 0)
@@ -10052,7 +10072,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 129.54) (xy 241.3 129.54)
+			(xy 240.03 127) (xy 241.3 127)
 		)
 		(stroke
 			(width 0)
@@ -12494,6 +12514,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 245.11 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d4b150b-c61f-4003-8b16-2826c41669f4")
+		(property "Reference" "R15"
+			(at 245.11 145.288 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 245.11 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
+			(at 245.11 149.098 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 245.11 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f5425c7b-0006-4faa-b759-ba4c22d7e42e")
+		)
+		(pin "1"
+			(uuid "f2c34936-b9e6-4add-8be0-0a9a45cba725")
+		)
+		(instances
+			(project "kicad"
+				(path "/0c6adb8a-850a-45da-adc8-8767ad57426e"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 26.67 82.55 0)
 		(unit 1)
@@ -14526,6 +14613,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 248.92 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3839e8ad-7636-4d29-9444-5c3a4aba9b22")
+		(property "Reference" "#PWR026"
+			(at 248.92 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 250.698 144.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 248.92 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ad6f386-0687-4aab-8a10-78ddb23ad009")
+		)
+		(instances
+			(project "kicad"
+				(path "/0c6adb8a-850a-45da-adc8-8767ad57426e"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 63.5 182.88 0)
 		(unit 1)
@@ -15093,6 +15245,75 @@
 				(path "/0c6adb8a-850a-45da-adc8-8767ad57426e"
 					(reference "U4")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 234.95 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "486bce7e-b8ec-441a-835e-b2e0ae7bb9da")
+		(property "Reference" "C4"
+			(at 234.95 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "680nF"
+			(at 234.95 123.952 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+			(at 238.76 126.0348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 234.95 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "54388de3-21bc-4fc7-841f-07c2c0153014")
+		)
+		(pin "1"
+			(uuid "7c9ac774-a22e-4f5d-91cf-2786fe105e77")
+		)
+		(instances
+			(project "kicad"
+				(path "/0c6adb8a-850a-45da-adc8-8767ad57426e"
+					(reference "C4")
+					(unit 1)
 				)
 			)
 		)
@@ -16418,7 +16639,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 248.92 129.54 0)
+		(at 248.92 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16426,7 +16647,7 @@
 		(dnp no)
 		(uuid "71efd6cf-f938-4ecc-ac9e-97b106ead94c")
 		(property "Reference" "#PWR019"
-			(at 248.92 133.35 0)
+			(at 248.92 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16435,7 +16656,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 250.698 126.238 0)
+			(at 250.698 123.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16443,7 +16664,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 129.54 0)
+			(at 248.92 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16452,7 +16673,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 129.54 0)
+			(at 248.92 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16461,7 +16682,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 248.92 129.54 0)
+			(at 248.92 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16622,7 +16843,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 245.11 129.54 90)
+		(at 245.11 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16630,7 +16851,7 @@
 		(dnp no)
 		(uuid "762fc607-d82a-434a-8e52-b8b901b81a0e")
 		(property "Reference" "R6"
-			(at 245.11 127.508 90)
+			(at 245.11 124.968 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16638,7 +16859,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 245.11 132.08 90)
+			(at 245.11 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16646,7 +16867,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
-			(at 245.11 131.318 90)
+			(at 245.11 128.778 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16655,7 +16876,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 129.54 0)
+			(at 245.11 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16664,7 +16885,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 245.11 129.54 0)
+			(at 245.11 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21203,6 +21424,71 @@
 			(project "kicad"
 				(path "/0c6adb8a-850a-45da-adc8-8767ad57426e"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 229.87 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb356fcf-4d9f-40aa-9e30-a4d0e0e005fe")
+		(property "Reference" "#PWR025"
+			(at 229.87 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 230.124 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c99450c-74c1-41d9-a6a0-7daae93f3835")
+		)
+		(instances
+			(project "kicad"
+				(path "/0c6adb8a-850a-45da-adc8-8767ad57426e"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
